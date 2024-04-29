@@ -1,0 +1,15 @@
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\bin\Debug\net8.0\mis-221-pa6-rchall2.exe
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\bin\Debug\net8.0\mis-221-pa6-rchall2.deps.json
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\bin\Debug\net8.0\mis-221-pa6-rchall2.runtimeconfig.json
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\bin\Debug\net8.0\mis-221-pa6-rchall2.dll
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\bin\Debug\net8.0\mis-221-pa6-rchall2.pdb
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\obj\Debug\net8.0\mis-221-pa6-rchall2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\obj\Debug\net8.0\mis-221-pa6-rchall2.AssemblyInfoInputs.cache
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\obj\Debug\net8.0\mis-221-pa6-rchall2.AssemblyInfo.cs
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\obj\Debug\net8.0\mis-221-pa6-rchall2.csproj.CoreCompileInputs.cache
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\obj\Debug\net8.0\mis-221-pa6-rchall2.sourcelink.json
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\obj\Debug\net8.0\mis-221-pa6-rchall2.dll
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\obj\Debug\net8.0\refint\mis-221-pa6-rchall2.dll
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\obj\Debug\net8.0\mis-221-pa6-rchall2.pdb
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\obj\Debug\net8.0\mis-221-pa6-rchall2.genruntimeconfig.cache
+C:\Users\roman\MIS221\mis-221-pa6-rchall2\obj\Debug\net8.0\ref\mis-221-pa6-rchall2.dll
