@@ -26,6 +26,7 @@
             </div>
             <div class="col-md-6">
                 <h3 class="inputHeader">Book Information</h3>
+                <!--Creates labels and assigns their input type for the necessary fields -->
                 <form onsubmit="return false;" method="post">
                     <label for="bookTitle">Title:</label>
                     <input type="text" id="bookTitle" name="title" readOnly><br><br>
@@ -35,13 +36,14 @@
                     <input type="text" id="bookGenre" name="genre" readOnly><br><br>
                     <label for="bookAvlb">Number Available:</label>
                     <input type="text" id="bookAvlb" name="avlb" readOnly><br><br>
-                    <label for="bookIsbn">ISBN:</lable>
+                    <label for="bookIsbn">ISBN:</label>
                     <input type="text" id="bookIsbn" name="isbn" readOnly><br><br>
                     <label for="bookLength">Length:</label>
                     <input type="text" id="bookLength" name="length" readOnly><br><br>
                     <label for="bookCover">Cover URL:</label>
                     <input type="text" id="bookCover" name="cover" readOnly><br><br>
                 </form>
+                <!--Assigns appropriate methods to each button-->
                 <div class="btnRow">
                     <button id="newButton" class="btn btn-primary" onclick="handleNewClick()">New</button>
                     <button id="editButton" class="btn btn-primary" onclick="handleEditClick()">Edit</button>

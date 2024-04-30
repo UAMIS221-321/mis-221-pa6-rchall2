@@ -1,21 +1,23 @@
+
+//Calls the appropriate api method to load correct functions for the web page after it is called
 function handleOnLoad(){
     populateList();
 }
 
 
-
+//Controls field values for each book change after click
 function handleOnChange(){
     const selectedId = document.getElementById("selectListBox").value;
     bookList.forEach((book)=>{
         if(book.id == selectedId){
-            myBook == book;
+            myBook = book;
         }
     });
 
     populateForm();
 }
 
-
+//Allows book fields to be changed, hides unnecessary buttons for editing book fields
 function handleEditClick(){
     makeEditable();
     hideButtons();
@@ -26,7 +28,7 @@ function handleEditClick(){
 }
 
 
-
+//Allows book fields to be changed, hides unnecessary buttons, and makes all fields blank
 function handleNewClick(){
     makeEditable();
     hideButtons();
@@ -38,6 +40,7 @@ function handleNewClick(){
 }
 
 
+//Decreases number of books avlb when rent button is clicked
 function handleRentClick(){
     myBook.numAvlb--;
     document.getElementById("bookAvlb").value = myBook.numAvlb;
@@ -45,7 +48,7 @@ function handleRentClick(){
 }
 
 
-
+//Increases number of books avlb when return button is clicked
 function handleReturnClick(){
     myBook.numAvlb++;
     document.getElementById("bookAvlb").value = myBook.numAvlb;
@@ -53,13 +56,13 @@ function handleReturnClick(){
 }
 
 
-
+//Calls the proper function to remove a book from listBox and erase data
 function handleDeleteClick(){
     deleteBook();
 }
 
 
-
+//Handles save functionality when the cancel button is clicked
 function handleCancelSave(){
     populateForm();
     makeReadOnly();
@@ -67,6 +70,7 @@ function handleCancelSave(){
 }
 
 
+//Saves a book after it is edited
 function handleEditSave(){
     putBook(id);
     makeReadOnly();
@@ -74,7 +78,7 @@ function handleEditSave(){
 }
 
 
-
+//Saves a book after it is added
 function handleNewSave(){
     postBook();
     makeReadOnly();
@@ -84,8 +88,7 @@ function handleNewSave(){
 
 
 
-
-
+//Establishes the correct values for each field in the book form
 function populateForm(){
     document.getElementById("bookTitle").value = myBook.title;
     document.getElementById("bookAuthor").value = myBook.author;
@@ -99,6 +102,7 @@ function populateForm(){
 }
 
 
+//Hides unnecessary buttons
 function hideButtons(){
     document.getElementById("newButton").style.display = "none";
     document.getElementById("editButton").style.display = "none";
@@ -108,6 +112,7 @@ function hideButtons(){
 }
 
 
+//Shows buttons after buttons have been hidden
 function showButtons(){
     document.getElementById("newButton").style.display = "inline-block";
     document.getElementById("editButton").style.display = "inline-block";
@@ -118,6 +123,7 @@ function showButtons(){
 }
 
 
+//Allows all fields in a book form to be edited
 function makeEditable(){
     document.getElementById("bookTitle").readOnly=false;
     document.getElementById("bookAuthor").readOnly=false;
@@ -129,6 +135,7 @@ function makeEditable(){
 }
 
 
+//Causes each field in the form for a new book to be blank by default
 function blankFields(){
     document.getElementById("bookTitle").value="";
     document.getElementById("bookAuthor").value="";
@@ -140,6 +147,7 @@ function blankFields(){
 }
 
 
+//Keeps book fields from being edited after they have been added or saved
 function makeReadOnly(){
     document.getElementById("bookTitle").readOnly=true;
     document.getElementById("bookAuthor").readOnly=true;

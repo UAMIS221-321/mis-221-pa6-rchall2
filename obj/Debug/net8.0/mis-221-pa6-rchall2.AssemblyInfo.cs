@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mis-221-pa6-rchall2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ddd22b76e5f1f496babb6bacf0cd2ceeaaa917c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24ccb330ab0a7f8fbdfe9d56c8d5cc54f3c542ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("mis-221-pa6-rchall2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mis-221-pa6-rchall2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
